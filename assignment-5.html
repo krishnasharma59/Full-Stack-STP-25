@@ -1,0 +1,123 @@
+<html>
+    <head>
+        <title>assignment-5</title>
+    </head>
+    <body bgcolor="yellow">
+        <form action="assignment-6.html" method="post">
+        <table width="100%" height="100%">
+            <tr >
+                <label><h3  style="background-color: blueviolet; color: white;" >PRIMARY DETAILS</h3></label>
+            </tr>
+            <tr>
+                <td><label>child's Name</label></td>
+                <td> <label>Child's Date of Birth</label></td>
+                <td><label>Child's Gender</label></td>
+
+            </tr>
+            <tr>
+                <td>
+                    <input type="text" name="txtname" placeholder="Enter Child Name here" value="" required style="width: 250px;">
+                </td>
+                <td>
+                    <input type="date" name="ChildDOB" required style="width: 250px;">
+                </td>
+                <td><select name="Gender" required style="width: 250px;">
+                    <option>Male</option>
+                    <option>Female</option>
+                </td>
+            </tr>
+            <tr>
+                <td><label><h3 style="background-color: blueviolet; color: white;">OTHER DETAILS </h3></label></td>
+            </tr>
+            <tr>
+                <td><label>Parent's Name</label></td>
+                <td><label>Parent's Mobile No.</label></td>
+                <td><label>Email-id</label></td>
+            </tr>
+            <tr>
+                <td> <select name="Parent">
+                    <option>Mr.</option>
+                    <option>Mrs.</option>
+                    </select>
+                    <input type="text" name="txtParentName" placeholder="Enter parent name here" value="" required>
+                </td>
+                <td>
+                    <input type="number" name="parentMobNo" placeholder="Enter Parent Mobile No. Here" required>
+                </td>
+                <td>
+                    <input type="email" name="email" placeholder="Enter Email here" required>
+                </td>
+            </tr>
+            <tr>
+                <td><label>Housing No./Building Name</label></td>
+                <td><label>Street</label></td>
+                <td><label>Locality</label></td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="text" name="address" placeholder="Enter address here">
+                </td>
+                <td>
+                    <input type="text" name="street" placeholder="Enter Street Name">
+                </td>
+                <td>
+                    <input type="text" name="Locality" placeholder="Enter Loacality Name">
+                </td>
+            </tr>
+            <tr>
+                <td><label>State</label></td>
+                <td><label>City</label></td>
+                <td>Pincode</td>
+            </tr>
+            <tr>
+                <td><select name="State" required>
+                    <option></option>
+                    <option>Uttar Pradesh</option>
+                    <option>Rajasthan</option>
+                    <option>Assam</option>
+                </select></td>
+                <td><select name="City" required>
+                    <option>Agra</option>
+                    <option>gwalior</option>
+                    <option>katra</option>
+                    <option>mumbai</option>
+                </select></td>
+                <td>
+                    <input type="number" name="pincode" placeholder="Enter Pincode" required min="100000" max="999999">
+                </td>
+            </tr>
+            <tr>
+                <td><label>User Name</label></td>
+                <td><label>Password</label></td>
+                <td>Confirm Password</td>
+            </tr>
+            <tr>
+                <td><input type="text" name="UserName" placeholder="Enter a User Name" required></td>
+                <td><input type="password" name="Password" placeholder="Enter a Strong Passoword" required></td>
+                <td><input type="password" name="CnfrmPassword" placeholder="Enter a Strong Passoword" required></td>
+            </tr>
+            <tr>
+                <td><input type="checkbox" name="CheckEmployee">Are you a max life Employee or agent?</td>
+               
+            </tr>
+            <tr>
+                <td><label>Where did you hear about us?</label></td>
+            </tr>
+            <tr>
+                <td><select name="Reference" required>
+                    <option></option>
+                    <option>Found out by myself</option>
+                    <option>Social Media</option>
+                    <option>Advertisement</option>
+                </select></td>
+            </tr>
+            <tr>
+                <td style="vertical-align: text-bottom;"> <input type="checkbox" name="TermsAndCondition">I agree with the Terms & conditions</td>
+            </tr>
+            <tr>
+                <td><input type="submit" name="submit" style="vertical-align: bottom;"></td>
+            </tr>
+        </table>
+        </form>
+    </body>
+</html>
