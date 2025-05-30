@@ -1,0 +1,29 @@
+.input1{
+    width: 200px;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 5px;
+
+}
+button{
+    width: 100px;
+    height: 30px;
+    font-family: cursive;
+    font-size: large;
+    background-color: olivedrab;
+    border-color: olivedrab;
+    color: yellow;
+    
+}
+body{
+    background-image: url('../images/1.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+label{
+    color: rgb(103, 255, 161);
+}
+legend,caption{
+    color: black;
+    font-weight: bold;
+}

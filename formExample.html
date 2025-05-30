@@ -1,0 +1,152 @@
+<html>
+    <head>
+        <title>Form Example</title>
+        <link rel="stylesheet" type="text/css" href="css/style.css"/>
+        <body>
+            <form action="index.html" method="post">
+            <table>
+                <caption><h2>Form Example</h2></caption>
+                <tr>
+                    <td>
+                        <label>Enter Name</label>
+                    </td>
+                    <td>
+                        <input type="text" name="txtname" class="input1" value="Krishna Sharma" disabled="true" required placeholder="Enter Name">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label>Enter Password</label>
+                    </td>
+                    <td>
+                        <input type="text" name="txtpass" value=""  required placeholder="Enter Password">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label>Enter Email-id</label>
+                    </td>
+                    <td>
+                        <input type="email" name="txtEmial" value="" required placeholder="Enter Email">
+                    </td>
+                </tr>
+                <tr>
+                    <td><label>Gender</label></td>
+                    <td>
+                        <input type="radio" name="rdogender" value="Male"> <label>Male</label>
+                        <input type="radio" name="rdogender" value="Female"> <label>Female</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label>Select Cities</label>
+                    </td>
+                    <td>
+                        <input type="checkbox" name="chk1" value="Delhi"><label>Delhi</label>
+                        <input type="checkbox" name="chk2" value="Banglore"><label>Banglore</label>
+                        <input type="checkbox" name="chk3" value="Pune"><label>Pune</label>
+                        <input type="checkbox" name="chk4" value="Chennai"><label>Chennai</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label> Choose Color</label>
+                    </td>
+                    <td>
+                        <input class="input1" type="color" name="clrchoice" value=""/>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label> upload document</label>
+                    </td>
+                    <td>
+                        <input class="input1" type="file" name="getfile">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label>Date of Birth</label>
+                    </td>
+                    <td>
+                        <input class="input1" type="date" name="dob">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label>Birth Time</label>
+                    </td>
+                    <td>
+                        <input class="input1" type="time" name="birthTime">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label>age</label>
+                    </td>
+                    <td>
+                        <input class="input1" type="number" name="age" value="" placeholder="enter Age" min="12" max="113">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label>Insta Profile URL</label>
+                    </td>
+                    <td>
+                        <input class="input1" type="url" name="instaUrl">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label>Complete Address</label>
+                    </td>
+                    <td>
+                        <textarea class="input1" name="txtaddress" rows="6" cols="50"></textarea>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label>Select City</label>
+                    </td>
+                    <td>
+                        <select name="cty" multiple>
+                            <option></option>
+                            <option>China</option>
+                            <option>Japan</option>
+                            <option>India</option>
+                            <option>Taiwan</option>
+                            <option>korea</option>
+                            <option>quwait</option>
+                        </select>
+                    </td>
+                    <td>
+                        <select name="cty">
+                            <option></option>
+                            <option>China</option>
+                            <option>Japan</option>
+                            <option>India</option>
+                            <option>Taiwan</option>
+                            <option>korea</option>
+                            <option>quwait</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <button name="submitButton" type="submit">submit</button>
+                        <button name="simpleButton" type="simple">simple</button>
+                        <button name="resetButton" type="reset">reset</button>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2">
+                        <input type="submit" name="submitPassbtn" value="submit">
+                        <input type="button" name="btn" value="Simple Button">
+                        <input type="reset" name="reset" value="reset">
+                    </td>
+                </tr>
+            </table>
+            </form>
+        </body>
+    </head>
+</html>
