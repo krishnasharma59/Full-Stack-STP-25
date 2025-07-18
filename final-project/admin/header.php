@@ -1,0 +1,100 @@
+<style>
+    body {
+      margin: 0;
+      padding: 0;
+      overflow-x: hidden;
+    }
+
+    .sidebar {
+      position: fixed;
+      top: 0;
+      left: 0;
+      height: 100%;
+      width: 200px;
+      background-color: #012117;
+      color: white;
+      padding-top: 50px;
+      transition: all 0.3s ease;
+    }
+
+    .sidebar a {
+      display: block;
+      padding: 12px 20px;
+      color: #ccc;
+      text-decoration: none;
+    }
+
+    .sidebar a:hover {
+      background-color: #444;
+      color: white;
+    }
+
+    .main-content {
+      margin-left: 200px;
+      padding: 20px;
+      transition: all 0.3s ease;
+    }
+
+    .sidebar.collapsed {
+      width: 0;
+      padding: 0;
+      overflow: hidden;
+    }
+
+    .main-content.full {
+      margin-left: 0;
+    }
+
+    .menu-toggle {
+      position: fixed;
+      top: 10px;
+      left: 10px;
+      background: none;
+      border: none;
+      color: #f7d2b6;
+      font-size: 20px;
+      z-index: 1000;
+    }
+
+    .menu-icon {
+      width: 30px;
+      height: 3px;
+      background-color: #000;
+      margin: 6px 0;
+      transition: 0.4s;
+    }
+  </style>
+<div class="container-fluid" >
+  <div class="row background">
+    <div class="col-sm-12 " style="text-align:center;" >
+       <img src="images/logo.png" style="margin-top: 10px;" class="logo_img" alt="">
+    </div>
+  </div>
+    <div class="row">
+        <div class="col-sm-2 background">
+
+            <div id="sidebar" class="sidebar" style="padding-top: 100px;">
+                <a style="color: #f7d2b6;" href="dashboard.php">Dashboard</a>
+                <div class="dropdown">
+                <a class="dropdown-toggle" data-toggle="dropdown" style="color: #f7d2b6;" href="#">Users
+                  <ul class="dropdown-menu">
+                      <li><a href="view_user.php">View users</a></li>
+                      <li><a href="add_user.php">Add new Users</a></li>
+                  </ul>
+                </a>
+                </div>
+                <a style="color: #f7d2b6;" href="#">Orders</a>
+                <div class="dropdown">
+                <a class="dropdown-toggle" data-toggle="dropdown" style="color: #f7d2b6;" href="#">Products
+                  <ul class="dropdown-menu">
+                      <li><a href="view_products.php">View Products</a></li>
+                      <li><a href="add_products.php">Add new Products</a></li>
+                  </ul>
+                </a>
+                </div>
+                <a style="color: #f7d2b6;" href="#">Orders</a>
+                <a style="color: #f7d2b6;" href="#">Logout</a>
+            </div>
+        </div>
+        <div class="col-sm-10">
+

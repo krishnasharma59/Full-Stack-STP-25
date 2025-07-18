@@ -1,0 +1,55 @@
+.background{
+    background-color: #f7d2b6;
+    
+}
+.header_background{
+
+    border-style: none;
+    
+}
+.header_text{
+    color: blue;
+    text-align: center;
+
+}
+.logo_img{
+    width: 100px;
+    border-radius: 100px;
+
+}
+.banner_alignment{
+    text-align: center;
+    padding-top: 119px;
+    
+}
+.loginbtn{
+    background-color: #012117;
+    color: #f7d2b6;
+    border-style: none;
+    border-radius: 50px;
+    width: 100px;
+    height: 50px;
+    margin-top: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+.footer_backgorund{
+    background-color: #f7d2b6;
+    text-align: center;
+    margin-bottom: 0%;
+    padding-bottom: 0%;
+}
+#product{
+    width: 200px;
+    border-radius: 20px ;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.product_text{
+    text-align: center;
+}
+.box1{
+    border-style: solid;
+    height: 550px;
+    width: 1530px;
+}
